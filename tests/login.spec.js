@@ -13,6 +13,8 @@ test("Login scenario test", async ({ page }) => {
     
      await page.waitForTimeout(4000)
 
+     await expect (page).toHaveTitle("Learn Automation Courses")
+
     // Example assertion
     ///await expect(page.locator("h1")).toHaveText("Dashboard")
 })

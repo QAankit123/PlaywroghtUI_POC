@@ -11,7 +11,7 @@ test("Login scenario test", async ({ page }) => {
     await loginPage.fillpassword(users.password)
     await loginPage.submit()
     
-     await page.waitForTimeout(3000)
+     await page.waitForTimeout(4000)
 
     // Example assertion
     ///await expect(page.locator("h1")).toHaveText("Dashboard")

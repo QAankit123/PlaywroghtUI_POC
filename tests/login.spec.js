@@ -15,6 +15,8 @@ test("Login scenario test", async ({ page }) => {
 
      await expect (page).toHaveTitle("Learn Automation Courses")
 
+     console.log("************  The test execution is done *************************")
+
     // Example assertion
     ///await expect(page.locator("h1")).toHaveText("Dashboard")
 })
